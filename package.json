@@ -1,0 +1,11 @@
+{
+  "name": "desenreda-web",
+  "version": "6.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check assistant-simulator.js && node --check server.mjs && node --check sw.js && node scripts/check-project.mjs",
+    "test": "npm run check && node scripts/test-date-rules.mjs && node scripts/test-state-sync.mjs && node scripts/test-simulator.mjs && node scripts/test-server.mjs"
+  }
+}

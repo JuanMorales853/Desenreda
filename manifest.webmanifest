@@ -1,0 +1,19 @@
+{
+  "name": "DESENREDA 6.3 — Asistente local",
+  "short_name": "DESENREDA",
+  "description": "Organiza tareas, ideas, decisiones y planes con un asistente simulado y herramientas de planificación.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f4fa",
+  "theme_color": "#7868ec",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
